@@ -1,0 +1,26 @@
+client:
+  cache: true
+  domain: []
+  impl: html
+  postman:
+    meta_data:
+      headers: null
+      impersonate: chrome110
+      proxies:
+        http: 127.0.0.1:7890
+        https: 127.0.0.1:7890
+    type: cffi
+  retry_times: 5
+debug: true
+dir_rule:
+  base_dir: ..\漫画\new
+  rule: Bd_Pname
+download:
+  cache: true
+  image:
+    decode: true
+    suffix: null
+  threading:
+    image: 30
+    photo: 12
+version: '2.1'
